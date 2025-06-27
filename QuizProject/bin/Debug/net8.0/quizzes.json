@@ -1,0 +1,1091 @@
+[
+  {
+    "Id": 1,
+    "Category": "Tarix",
+    "Questions": [
+      {
+        "QuestionId": 1,
+        "Sual": "1812-ci il müharibəsi hansı ölkələr arasında baş vermişdir?",
+        "Variantlar": [
+          "Böyük Britaniya və ABŞ",
+          "Fransa və Rusiya",
+          "Almaniya və İtaliya",
+          "Osmanlı və Avstriya"
+        ],
+        "DuzgunCavablar": [
+          "Böyük Britaniya və ABŞ"
+        ]
+      },
+      {
+        "QuestionId": 2,
+        "Sual": "Birinci Dünya Müharibəsi nə vaxt başa çatdı?",
+        "Variantlar": [
+          "1914",
+          "1918",
+          "1939",
+          "1945"
+        ],
+        "DuzgunCavablar": [
+          "1918"
+        ]
+      },
+      {
+        "QuestionId": 3,
+        "Sual": "Azərbaycanın müstəqillik günü hansı tarixdir?",
+        "Variantlar": [
+          "28 May",
+          "18 Oktyabr",
+          "31 Dekabr",
+          "9 Noyabr"
+        ],
+        "DuzgunCavablar": [
+          "18 Oktyabr"
+        ]
+      },
+      {
+        "QuestionId": 4,
+        "Sual": "Böyük İpək Yolunun başlanğıc nöqtəsi haradır?",
+        "Variantlar": [
+          "Çin",
+          "Hindistan",
+          "Misir",
+          "Roma"
+        ],
+        "DuzgunCavablar": [
+          "Çin"
+        ]
+      },
+      {
+        "QuestionId": 5,
+        "Sual": "Rönesans dövrü hansı əsrlərə təsadüf edir?",
+        "Variantlar": [
+          "14-17",
+          "10-12",
+          "18-19",
+          "20-ci əsr"
+        ],
+        "DuzgunCavablar": [
+          "14-17"
+        ]
+      },
+      {
+        "QuestionId": 6,
+        "Sual": "XV əsrin sonlarında Kəşfiyyatçı Kristofor Kolumb hansı qitəni kəşf etdi?",
+        "Variantlar": [
+          "Avropa",
+          "Amerika",
+          "Afrika",
+          "Asiya"
+        ],
+        "DuzgunCavablar": [
+          "Amerika"
+        ]
+      },
+      {
+        "QuestionId": 7,
+        "Sual": "Azərbaycanın ilk prezidenti kim idi?",
+        "Variantlar": [
+          "Heydər Əliyev",
+          "Abulfaz Elçibəy",
+          "İsa Qəmbər",
+          "Ayaz Mütəllibov"
+        ],
+        "DuzgunCavablar": [
+          "Ayaz Mütəllibov"
+        ]
+      },
+      {
+        "QuestionId": 8,
+        "Sual": "Bakı neft sənayesi hansı əsrdə inkişaf edib?",
+        "Variantlar": [
+          "19-cu",
+          "18-ci",
+          "20-ci",
+          "17-ci"
+        ],
+        "DuzgunCavablar": [
+          "19-cu"
+        ]
+      },
+      {
+        "QuestionId": 9,
+        "Sual": "Hansı dövlət Osmanlı imperiyasının ərazisinə daxil deyildi?",
+        "Variantlar": [
+          "Yunanıstan",
+          "Serbiya",
+          "Polşa",
+          "Bolqarıstan"
+        ],
+        "DuzgunCavablar": [
+          "Polşa"
+        ]
+      },
+      {
+        "QuestionId": 10,
+        "Sual": "Xalq Cümhuriyyəti hansı ildə elan olunub?",
+        "Variantlar": [
+          "1918",
+          "1920",
+          "1917",
+          "1919"
+        ],
+        "DuzgunCavablar": [
+          "1918"
+        ]
+      },
+      {
+        "QuestionId": 11,
+        "Sual": "II Dünya Müharibəsində Almaniya hansı il təslim oldu?",
+        "Variantlar": [
+          "1945",
+          "1944",
+          "1939",
+          "1941"
+        ],
+        "DuzgunCavablar": [
+          "1945"
+        ]
+      },
+      {
+        "QuestionId": 12,
+        "Sual": "İslamın yaranma dövrü hansı əsrə təsadüf edir?",
+        "Variantlar": [
+          "7-ci",
+          "8-ci",
+          "9-cu",
+          "6-cı"
+        ],
+        "DuzgunCavablar": [
+          "7-ci"
+        ]
+      },
+      {
+        "QuestionId": 13,
+        "Sual": "Qədim Misir sivilizasiyası hansı çayın ətrafında yaranıb?",
+        "Variantlar": [
+          "Nil",
+          "Amazon",
+          "Dəclə",
+          "Fərat"
+        ],
+        "DuzgunCavablar": [
+          "Nil"
+        ]
+      },
+      {
+        "QuestionId": 14,
+        "Sual": "Napoleon Bonapart hansı ölkənin lideri idi?",
+        "Variantlar": [
+          "Fransa",
+          "İngiltərə",
+          "Rusiya",
+          "İspaniya"
+        ],
+        "DuzgunCavablar": [
+          "Fransa"
+        ]
+      },
+      {
+        "QuestionId": 15,
+        "Sual": "Azadlıq müharibəsi hansı ölkədə baş verib?",
+        "Variantlar": [
+          "Azərbaycan",
+          "Türkiyə",
+          "Hindistan",
+          "Almaniya"
+        ],
+        "DuzgunCavablar": [
+          "Azərbaycan"
+        ]
+      },
+      {
+        "QuestionId": 16,
+        "Sual": "Qızıl Orda kimlər tərəfindən yaradılmışdır?",
+        "Variantlar": [
+          "Monqollar",
+          "Ruslar",
+          "Türklər",
+          "Avropalılar"
+        ],
+        "DuzgunCavablar": [
+          "Monqollar"
+        ]
+      },
+      {
+        "QuestionId": 17,
+        "Sual": "Qədim Roma dövründə kolizeyum nə üçün istifadə olunurdu?",
+        "Variantlar": [
+          "Oyunlar və döyüşlər",
+          "Ticarət",
+          "Dini mərasimlər",
+          "İdarəçilik"
+        ],
+        "DuzgunCavablar": [
+          "Oyunlar və döyüşlər"
+        ]
+      },
+      {
+        "QuestionId": 18,
+        "Sual": "Köhnə dövrdə ilk yazı hansı mədəniyyətdə yaranıb?",
+        "Variantlar": [
+          "Sümer",
+          "Misir",
+          "Yunan",
+          "Roma"
+        ],
+        "DuzgunCavablar": [
+          "Sümer"
+        ]
+      },
+      {
+        "QuestionId": 19,
+        "Sual": "Azərbaycan SSR-ə nə vaxt daxil oldu?",
+        "Variantlar": [
+          "1920",
+          "1918",
+          "1936",
+          "1945"
+        ],
+        "DuzgunCavablar": [
+          "1920"
+        ]
+      },
+      {
+        "QuestionId": 20,
+        "Sual": "Hansı imperiya ən uzun müddət mövcud olmuşdur?",
+        "Variantlar": [
+          "Romalılar",
+          "Osmanlı",
+          "Mongol",
+          "Makedon"
+        ],
+        "DuzgunCavablar": [
+          "Osmanlı"
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Category": "Biologiya",
+    "Questions": [
+      {
+        "QuestionId": 1,
+        "Sual": "Hansılar hüceyrə orqanoididir?",
+        "Variantlar": [
+          "Mitoxondri",
+          "Plastid",
+          "Lizozom",
+          "Qaraciyər"
+        ],
+        "DuzgunCavablar": [
+          "Mitoxondri",
+          "Plastid",
+          "Lizozom"
+        ]
+      },
+      {
+        "QuestionId": 2,
+        "Sual": "İnsan orqanizmində neçə sümük var?",
+        "Variantlar": [
+          "206",
+          "210",
+          "195",
+          "180"
+        ],
+        "DuzgunCavablar": [
+          "206"
+        ]
+      },
+      {
+        "QuestionId": 3,
+        "Sual": "Bitkilərin fotosintez prosesi hansı orqanoiddə baş verir?",
+        "Variantlar": [
+          "Mitoxondri",
+          "Xloroplast",
+          "Lizozom",
+          "Ribosom"
+        ],
+        "DuzgunCavablar": [
+          "Xloroplast"
+        ]
+      },
+      {
+        "QuestionId": 4,
+        "Sual": "İnsan qanında əsas daşıyıcı maddə nədir?",
+        "Variantlar": [
+          "Hemoglobin",
+          "Keratin",
+          "Kolagen",
+          "Adrenalin"
+        ],
+        "DuzgunCavablar": [
+          "Hemoglobin"
+        ]
+      },
+      {
+        "QuestionId": 5,
+        "Sual": "Hansı orqan insan bədənində ən böyükdür?",
+        "Variantlar": [
+          "Dəri",
+          "Ürək",
+          "Mədə",
+          "Böyrək"
+        ],
+        "DuzgunCavablar": [
+          "Dəri"
+        ]
+      },
+      {
+        "QuestionId": 6,
+        "Sual": "Hansı heyvan döllənmə üçün yumurtadan çıxmır?",
+        "Variantlar": [
+          "İnsan",
+          "Tovuz quşu",
+          "İlan",
+          "Qurbağa"
+        ],
+        "DuzgunCavablar": [
+          "İnsan"
+        ]
+      },
+      {
+        "QuestionId": 7,
+        "Sual": "Bitkilərdə su nəqli hansı toxuma ilə baş verir?",
+        "Variantlar": [
+          "Ksilem",
+          "Floem",
+          "Parenxim",
+          "Sklerem"
+        ],
+        "DuzgunCavablar": [
+          "Ksilem"
+        ]
+      },
+      {
+        "QuestionId": 8,
+        "Sual": "Genetik məlumat hüceyrədə harada saxlanılır?",
+        "Variantlar": [
+          "Nüvə",
+          "Mitoz",
+          "Ribosom",
+          "Plazma"
+        ],
+        "DuzgunCavablar": [
+          "Nüvə"
+        ]
+      },
+      {
+        "QuestionId": 9,
+        "Sual": "Fotosintez zamanı bitkilər hansı qazı udurlar?",
+        "Variantlar": [
+          "Oksigen",
+          "Karbon dioksid",
+          "Azot",
+          "Metan"
+        ],
+        "DuzgunCavablar": [
+          "Karbon dioksid"
+        ]
+      },
+      {
+        "QuestionId": 10,
+        "Sual": "Süni seçilmənin nəticəsi nə olur?",
+        "Variantlar": [
+          "Yeni növlərin yaranması",
+          "Ətraf mühitin dəyişməsi",
+          "Yeni xüsusiyyətlərin inkişafı",
+          "Nəsil dəyişməsi"
+        ],
+        "DuzgunCavablar": [
+          "Yeni xüsusiyyətlərin inkişafı"
+        ]
+      },
+      {
+        "QuestionId": 11,
+        "Sual": "Xromosomlar nə vaxt görünür?",
+        "Variantlar": [
+          "Mitoz zamanı",
+          "Meiosis zamanı",
+          "İnterfazda",
+          "G1 mərhələsində"
+        ],
+        "DuzgunCavablar": [
+          "Mitoz zamanı"
+        ]
+      },
+      {
+        "QuestionId": 12,
+        "Sual": "İnsanlarda qan qrupunu təyin edən genetik faktor hansı olaraq adlanır?",
+        "Variantlar": [
+          "ABO sistemi",
+          "Rh faktoru",
+          "X qromosomu",
+          "Y qromosomu"
+        ],
+        "DuzgunCavablar": [
+          "ABO sistemi"
+        ]
+      },
+      {
+        "QuestionId": 13,
+        "Sual": "Hansı hüceyrə orqanı enerji istehsal edir?",
+        "Variantlar": [
+          "Mitoxondri",
+          "Plastid",
+          "Ribosom",
+          "Lizozom"
+        ],
+        "DuzgunCavablar": [
+          "Mitoxondri"
+        ]
+      },
+      {
+        "QuestionId": 14,
+        "Sual": "Bütün bitkilər fotosintez edir?",
+        "Variantlar": [
+          "Bəli",
+          "Xeyr",
+          "Yalnız yarpaqlar",
+          "Yalnız su bitkiləri"
+        ],
+        "DuzgunCavablar": [
+          "Xeyr"
+        ]
+      },
+      {
+        "QuestionId": 15,
+        "Sual": "Qan dövranında ən böyük damar hansıdır?",
+        "Variantlar": [
+          "Aorta",
+          "Vena cava",
+          "Koronary arteriya",
+          "Pulmonar arteriya"
+        ],
+        "DuzgunCavablar": [
+          "Aorta"
+        ]
+      },
+      {
+        "QuestionId": 16,
+        "Sual": "Təkhüceyrəli canlıların nüvəsi varmı?",
+        "Variantlar": [
+          "Bəli",
+          "Xeyr",
+          "Sadəcə bakteriyalar",
+          "Sadəcə göbələklər"
+        ],
+        "DuzgunCavablar": [
+          "Xeyr"
+        ]
+      },
+      {
+        "QuestionId": 17,
+        "Sual": "Bütün canlılar necə çoxalır?",
+        "Variantlar": [
+          "Cinsi",
+          "Aseksual",
+          "İkisini də",
+          "Sadəcə cinsi"
+        ],
+        "DuzgunCavablar": [
+          "İkisini də"
+        ]
+      },
+      {
+        "QuestionId": 18,
+        "Sual": "Hansı orqan bitkilərin həyati proseslərini idarə edir?",
+        "Variantlar": [
+          "Kök",
+          "Yarpaqlar",
+          "Çiçəklər",
+          "Stomatalar"
+        ],
+        "DuzgunCavablar": [
+          "Yarpaqlar"
+        ]
+      },
+      {
+        "QuestionId": 19,
+        "Sual": "DNA və ya RNT nədir?",
+        "Variantlar": [
+          "Genetik material",
+          "Protein",
+          "Hormon",
+          "Damar"
+        ],
+        "DuzgunCavablar": [
+          "Genetik material"
+        ]
+      },
+      {
+        "QuestionId": 20,
+        "Sual": "Bitkilərdə hansı maddə fotosintez üçün vacibdir?",
+        "Variantlar": [
+          "Karbon dioksid",
+          "Oksigen",
+          "Azot",
+          "Ammiak"
+        ],
+        "DuzgunCavablar": [
+          "Karbon dioksid"
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Category": "Fizika",
+    "Questions": [
+      {
+        "QuestionId": 1,
+        "Sual": "Hansı cisimlər üçün sürət dəyişməsi qüvvənin təsirindən asılıdır?",
+        "Variantlar": [
+          "Hərəkət edən cisimlər",
+          "Dinc cisimlər",
+          "Yalnız elastik cisimlər",
+          "Yalnız sərt cisimlər"
+        ],
+        "DuzgunCavablar": [
+          "Hərəkət edən cisimlər"
+        ]
+      },
+      {
+        "QuestionId": 2,
+        "Sual": "Enerjinin hansı növü mövqeyə görə müəyyən edilir?",
+        "Variantlar": [
+          "Kinetik enerji",
+          "Potensial enerji",
+          "İş",
+          "Temperatur"
+        ],
+        "DuzgunCavablar": [
+          "Potensial enerji"
+        ]
+      },
+      {
+        "QuestionId": 3,
+        "Sual": "İşığın sürəti təxmini nə qədərdir?",
+        "Variantlar": [
+          "300 000 km/s",
+          "150 000 km/s",
+          "3 000 km/s",
+          "30 000 km/s"
+        ],
+        "DuzgunCavablar": [
+          "300 000 km/s"
+        ]
+      },
+      {
+        "QuestionId": 4,
+        "Sual": "Hansı qüvvələr təmasda olmayan qüvvələrdir?",
+        "Variantlar": [
+          "Çəkmə qüvvəsi",
+          "Maşın qüvvəsi",
+          "Qravitasiya və maqnit qüvvələri",
+          "Sürtünmə qüvvəsi"
+        ],
+        "DuzgunCavablar": [
+          "Qravitasiya və maqnit qüvvələri"
+        ]
+      },
+      {
+        "QuestionId": 5,
+        "Sual": "İki cisim arasında cazibə qüvvəsi nə ilə ölçülür?",
+        "Variantlar": [
+          "Newton",
+          "Joul",
+          "Pascal",
+          "Volt"
+        ],
+        "DuzgunCavablar": [
+          "Newton"
+        ]
+      },
+      {
+        "QuestionId": 6,
+        "Sual": "Massa nəyi ifadə edir?",
+        "Variantlar": [
+          "Cismin sürətini",
+          "Cismin maddə miqdarını",
+          "Cismin həcmini",
+          "Cismin temperaturunu"
+        ],
+        "DuzgunCavablar": [
+          "Cismin maddə miqdarını"
+        ]
+      },
+      {
+        "QuestionId": 7,
+        "Sual": "İşıq iki mühitin sərhədindən keçərkən nə baş verir?",
+        "Variantlar": [
+          "Dəyişir",
+          "Sürətini dəyişir və əyilir",
+          "Tamamilə yox olur",
+          "Möhkəmlənir"
+        ],
+        "DuzgunCavablar": [
+          "Sürətini dəyişir və əyilir"
+        ]
+      },
+      {
+        "QuestionId": 8,
+        "Sual": "Elektrik cərəyanı nə ilə ölçülür?",
+        "Variantlar": [
+          "Volt",
+          "Amper",
+          "Ohm",
+          "Vatt"
+        ],
+        "DuzgunCavablar": [
+          "Amper"
+        ]
+      },
+      {
+        "QuestionId": 9,
+        "Sual": "Hansı maddələr keçiricidir?",
+        "Variantlar": [
+          "Metallar və duzlu su",
+          "Taxta və plastik",
+          "Şüşə və keramika",
+          "Müxtəlif qazlar"
+        ],
+        "DuzgunCavablar": [
+          "Metallar və duzlu su"
+        ]
+      },
+      {
+        "QuestionId": 10,
+        "Sual": "İşığın ikiqat dalğa və hissəcik xüsusiyyətləri hansılardır?",
+        "Variantlar": [
+          "Dalğa",
+          "Hissəcik",
+          "Həm dalğa, həm də hissəcik",
+          "Yalnız enerji"
+        ],
+        "DuzgunCavablar": [
+          "Həm dalğa, həm də hissəcik"
+        ]
+      },
+      {
+        "QuestionId": 11,
+        "Sual": "Hansı maddələr maqnetik xüsusiyyətə malikdir?",
+        "Variantlar": [
+          "Dəmir, nikel",
+          "Alüminium, mis",
+          "Qızıl, gümüş",
+          "Şüşə, plastik"
+        ],
+        "DuzgunCavablar": [
+          "Dəmir, nikel"
+        ]
+      },
+      {
+        "QuestionId": 12,
+        "Sual": "Newtonun neçə əsas qanunu var?",
+        "Variantlar": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "DuzgunCavablar": [
+          "3"
+        ]
+      },
+      {
+        "QuestionId": 13,
+        "Sual": "Hansı iki fiziki ölçü enerji ilə bağlıdır?",
+        "Variantlar": [
+          "Kütlə və sürət",
+          "Kütlə və məsafə",
+          "Sürət və temperatur",
+          "Masa və temperatur"
+        ],
+        "DuzgunCavablar": [
+          "Kütlə və sürət"
+        ]
+      },
+      {
+        "QuestionId": 14,
+        "Sual": "Sürtünmə qüvvəsinin növləri hansılardır?",
+        "Variantlar": [
+          "Statik və dinamik sürtünmə",
+          "Yalnız statik sürtünmə",
+          "Yalnız dinamik sürtünmə",
+          "Hava müqaviməti"
+        ],
+        "DuzgunCavablar": [
+          "Statik və dinamik sürtünmə"
+        ]
+      },
+      {
+        "QuestionId": 15,
+        "Sual": "Kütlənin vahidi nədir?",
+        "Variantlar": [
+          "Kilogram",
+          "Meter",
+          "Sekund",
+          "Volt"
+        ],
+        "DuzgunCavablar": [
+          "Kilogram"
+        ]
+      },
+      {
+        "QuestionId": 16,
+        "Sual": "İşığın sürəti vakuumda nədir?",
+        "Variantlar": [
+          "299 792 458 m/s",
+          "150 000 000 m/s",
+          "300 000 000 m/s",
+          "250 000 000 m/s"
+        ],
+        "DuzgunCavablar": [
+          "299 792 458 m/s",
+          "300 000 000 m/s"
+        ]
+      },
+      {
+        "QuestionId": 17,
+        "Sual": "Hansı maddə keçirici deyil?",
+        "Variantlar": [
+          "Plastik",
+          "Mis",
+          "Alüminium",
+          "Gümüş"
+        ],
+        "DuzgunCavablar": [
+          "Plastik"
+        ]
+      },
+      {
+        "QuestionId": 18,
+        "Sual": "Maqnit sahəsi hansı vasitə ilə ölçülür?",
+        "Variantlar": [
+          "Tesla",
+          "Volt",
+          "Amper",
+          "Ohm"
+        ],
+        "DuzgunCavablar": [
+          "Tesla"
+        ]
+      },
+      {
+        "QuestionId": 19,
+        "Sual": "Enerji nə zaman saxlanılır və itmir?",
+        "Variantlar": [
+          "İzolyasiya zamanı",
+          "Qanunlarda",
+          "Enerjinin saxlanması qanununda",
+          "Temperatur zamanı"
+        ],
+        "DuzgunCavablar": [
+          "Enerjinin saxlanması qanununda"
+        ]
+      },
+      {
+        "QuestionId": 20,
+        "Sual": "Hansı fiziki ölçü sürət ilə bağlıdır?",
+        "Variantlar": [
+          "Məsafə",
+          "Zaman",
+          "Hərəkət",
+          "Sürət"
+        ],
+        "DuzgunCavablar": [
+          "Hərəkət",
+          "Sürət"
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Category": "Azərbaycan dili",
+    "Questions": [
+      {
+        "QuestionId": 1,
+        "Sual": "Aşağıdakılardan hansılar felin şəkilləridir?",
+        "Variantlar": [
+          "Qəti şəkil",
+          "Əmr şəkli",
+          "Nəqli şəkil",
+          "Təsrif şəkli"
+        ],
+        "DuzgunCavablar": [
+          "Qəti şəkil",
+          "Əmr şəkli",
+          "Nəqli şəkil"
+        ]
+      },
+      {
+        "QuestionId": 2,
+        "Sual": "“Kitab” sözündə neçə heca var?",
+        "Variantlar": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "DuzgunCavablar": [
+          "2"
+        ]
+      },
+      {
+        "QuestionId": 3,
+        "Sual": "Aşağıdakılardan hansı sifətdir?",
+        "Variantlar": [
+          "Gözəl",
+          "Qaçmaq",
+          "Kitab",
+          "Yazmaq"
+        ],
+        "DuzgunCavablar": [
+          "Gözəl"
+        ]
+      },
+      {
+        "QuestionId": 4,
+        "Sual": "Sifətə aid olan sözləri seçin.",
+        "Variantlar": [
+          "Yaşıl",
+          "Yemək",
+          "Böyük",
+          "Kitab"
+        ],
+        "DuzgunCavablar": [
+          "Yaşıl",
+          "Böyük"
+        ]
+      },
+      {
+        "QuestionId": 5,
+        "Sual": "Söz birləşməsində neçə söz olur?",
+        "Variantlar": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "DuzgunCavablar": [
+          "2"
+        ]
+      },
+      {
+        "QuestionId": 6,
+        "Sual": "Aşağıdakılardan hansılar fel növləridir?",
+        "Variantlar": [
+          "Sadə fel",
+          "Qoşma fel",
+          "Mürəkkəb fel",
+          "Təsrif fel"
+        ],
+        "DuzgunCavablar": [
+          "Sadə fel",
+          "Qoşma fel",
+          "Mürəkkəb fel"
+        ]
+      },
+      {
+        "QuestionId": 7,
+        "Sual": "Aşağıdakılardan hansı söz növüdür?",
+        "Variantlar": [
+          "İsim",
+          "Rəng",
+          "Qırmızı",
+          "Gül"
+        ],
+        "DuzgunCavablar": [
+          "İsim"
+        ]
+      },
+      {
+        "QuestionId": 8,
+        "Sual": "Aşağıdakılardan hansılar çoxluq şəkilçiləridir?",
+        "Variantlar": [
+          "-lar",
+          "-lər",
+          "-ım",
+          "-sin"
+        ],
+        "DuzgunCavablar": [
+          "-lar",
+          "-lər"
+        ]
+      },
+      {
+        "QuestionId": 9,
+        "Sual": "Aşağıdakı cümlələrdən hansında feil var?",
+        "Variantlar": [
+          "Mən məktəbə getdim.",
+          "Gül gözəl açır.",
+          "Sən kitab oxuyursan.",
+          "Bu qız yaşıl rənglidir."
+        ],
+        "DuzgunCavablar": [
+          "Mən məktəbə getdim.",
+          "Sən kitab oxuyursan."
+        ]
+      },
+      {
+        "QuestionId": 10,
+        "Sual": "Mürəkkəb sözlər hansılardır?",
+        "Variantlar": [
+          "Dəniz kənarı",
+          "Qırmızı",
+          "Gözəl",
+          "Ayaqqabı"
+        ],
+        "DuzgunCavablar": [
+          "Dəniz kənarı",
+          "Ayaqqabı"
+        ]
+      },
+      {
+        "QuestionId": 11,
+        "Sual": "Aşağıdakılardan hansılar isim hallarıdır?",
+        "Variantlar": [
+          "Yalın hal",
+          "İşarə halı",
+          "Yönlük halı",
+          "Məkan halı"
+        ],
+        "DuzgunCavablar": [
+          "Yalın hal",
+          "Yönlük halı",
+          "Məkan halı"
+        ]
+      },
+      {
+        "QuestionId": 12,
+        "Sual": "Aşağıdakılardan hansı qarşılıq əvəzliyidir?",
+        "Variantlar": [
+          "Mən",
+          "Sən",
+          "Bu",
+          "Gözəl"
+        ],
+        "DuzgunCavablar": [
+          "Mən",
+          "Sən",
+          "Bu"
+        ]
+      },
+      {
+        "QuestionId": 13,
+        "Sual": "Aşağıdakılardan hansılar vurğu ilə bağlıdır?",
+        "Variantlar": [
+          "Hece",
+          "Sait",
+          "Samit",
+          "Söz vurğusu"
+        ],
+        "DuzgunCavablar": [
+          "Hece",
+          "Söz vurğusu"
+        ]
+      },
+      {
+        "QuestionId": 14,
+        "Sual": "Aşağıdakılardan hansı köməkçi nitq hissəsidir?",
+        "Variantlar": [
+          "Qatı",
+          "Hətta",
+          "Əgər",
+          "Ancaq"
+        ],
+        "DuzgunCavablar": [
+          "Hətta",
+          "Əgər",
+          "Ancaq"
+        ]
+      },
+      {
+        "QuestionId": 15,
+        "Sual": "Aşağıdakılardan hansılar müraciət hissəsidir?",
+        "Variantlar": [
+          "Ay",
+          "Qardaş",
+          "Gəl",
+          "Dost"
+        ],
+        "DuzgunCavablar": [
+          "Qardaş",
+          "Dost"
+        ]
+      },
+      {
+        "QuestionId": 16,
+        "Sual": "Aşağıdakılardan hansı zaman şəkilçisidir?",
+        "Variantlar": [
+          "-dı",
+          "-miş",
+          "-dısa",
+          "-dir"
+        ],
+        "DuzgunCavablar": [
+          "-dı",
+          "-miş",
+          "-dir"
+        ]
+      },
+      {
+        "QuestionId": 17,
+        "Sual": "Aşağıdakılardan hansılar Azərbaycan əlifbasının saitləridir?",
+        "Variantlar": [
+          "a",
+          "b",
+          "ə",
+          "g"
+        ],
+        "DuzgunCavablar": [
+          "a",
+          "ə"
+        ]
+      },
+      {
+        "QuestionId": 18,
+        "Sual": "Cümlədə əsas fikir nədir?",
+        "Variantlar": [
+          "Nəticə",
+          "Mövzu",
+          "Əsas söz",
+          "Qrammatik şəkil"
+        ],
+        "DuzgunCavablar": [
+          "Mövzu",
+          "Əsas söz"
+        ]
+      },
+      {
+        "QuestionId": 19,
+        "Sual": "Aşağıdakılardan hansı köməkçi fel deyil?",
+        "Variantlar": [
+          "İdi",
+          "Olmaq",
+          "Gəlmək",
+          "Qaldı"
+        ],
+        "DuzgunCavablar": [
+          "Gəlmək"
+        ]
+      },
+      {
+        "QuestionId": 20,
+        "Sual": "Aşağıdakılardan hansı isimlər cəm halında yazılır?",
+        "Variantlar": [
+          "Kitablar",
+          "Qələmlər",
+          "Gözəl",
+          "Qız"
+        ],
+        "DuzgunCavablar": [
+          "Kitablar",
+          "Qələmlər"
+        ]
+      }
+    ]
+  }
+]
