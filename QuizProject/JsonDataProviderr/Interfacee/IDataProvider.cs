@@ -1,6 +1,4 @@
-﻿
-
-namespace QuizProject.Services.Interface;
+﻿namespace QuizProject.JsonDataProviderr.Interfacee;
 
 
 public interface IDataProvider<T>

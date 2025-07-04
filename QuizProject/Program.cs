@@ -2,6 +2,7 @@
 using QuizProject.Models;
 using QuizProject.Services;
 using QuizProject.Services.Interface;
+using QuizProject.JsonDataProviderr;
 using QuizProject.ReadPasswordWithStarss;
 using System.Text.RegularExpressions;
 
@@ -209,9 +210,13 @@ while (isRunning)
             {
                 foreach (var s in scores.OrderByDescending(x => x.Date))
                 {
-                    Console.WriteLine($"{s.Date:yyyy-MM-dd} | {s.Category} | {s.Score} xal");
+                    int wrong = 20 - s.Score;
+                    Console.WriteLine($"{s.Date:yyyy-MM-dd} | {s.Category} | Düzgün: {s.Score} | Səhv: {wrong}");
                 }
             }
+            Console.WriteLine("Çıxmaq istəyirsinizsə, hər hansı bir düyməyə basın..");
+            Console.ReadKey();
+            Console.Clear();
         }
         else if (choice == "4")
         {
@@ -245,6 +250,9 @@ while (isRunning)
                 foreach (var s in topScores)
                     Console.WriteLine($"{rank++}. {s.Username} — {s.Score} xal ({s.Date:yyyy-MM-dd})");
             }
+            Console.WriteLine("Çıxmaq istəyirsinizsə, hər hansı bir düyməyə basın..");
+            Console.ReadKey();
+            Console.Clear();
         }
 
         else if (choice == "5")

@@ -1,4 +1,5 @@
 ﻿
+using QuizProject.JsonDataProviderr;
 using QuizProject.Models;
 using QuizProject.Services.Interface;
 
@@ -17,35 +18,11 @@ public class ScoreService : IScoreService
 
     public void SaveScore(UserScore newScore)
     {
-        var existingScore = _scores.FirstOrDefault(s => s.Username == newScore.Username && s.Category == newScore.Category);
 
-        if (existingScore != null)
-        {
-            existingScore.Score += newScore.Score;
-            existingScore.Date = DateTime.Now;
-        }
-        else
-        {
-            _scores.Add(newScore);
-        }
-
-        var top20SameCategory = _scores
-        .Where(s => s.Category == newScore.Category)
-        .OrderByDescending(s => s.Score)
-        .ThenBy(s => s.Date)
-        .Take(20);
-
-        var otherCategories = _scores
-            .Where(s => s.Category != newScore.Category);
-
-        var result = top20SameCategory
-            .ToList(); 
-
-        result.AddRange(otherCategories);
-
-
+        _scores.Add(newScore);
         _provider.Save(_scores);
     }
+
 
 
 
@@ -59,12 +36,24 @@ public class ScoreService : IScoreService
 
     public List<UserScore> GetTopScores(string category, int count)
     {
-        return _scores
-            .Where(x => x.Category == category && x.Score > 0)
-            .OrderByDescending(x => x.Score)
-            .ThenBy(x => x.Date)
-            .Take(count)
-            .ToList();
+        string normalizedCategory = category.Trim().ToLower();
+
+        var groupedScores = _scores
+                       .Where(x => x.Category.Trim().ToLower() == normalizedCategory && x.Score > 0)
+                       .GroupBy(x => x.Username.Trim().ToLower())
+                       .Select(g => new UserScore
+                       {
+                           Username = g.First().Username,
+                           Category = category,
+                           Score = g.Sum(x => x.Score),
+                           Date = g.Max(x => x.Date)
+                       })
+                       .OrderByDescending(x => x.Score)
+                       .ThenBy(x => x.Date)
+                       .Take(count)
+                       .ToList();
+
+        return groupedScores;
     }
 }
 

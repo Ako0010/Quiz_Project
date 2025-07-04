@@ -2,9 +2,9 @@
 
 
 using Newtonsoft.Json;
-using QuizProject.Services.Interface;
+using QuizProject.JsonDataProviderr.Interfacee;
 
-namespace QuizProject.Services;
+namespace QuizProject.JsonDataProviderr;
 
 
 public class JsonDataProvider<T> : IDataProvider<List<T>>

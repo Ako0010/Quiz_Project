@@ -1,4 +1,5 @@
-﻿using QuizProject.Models;
+﻿using QuizProject.JsonDataProviderr.Interfacee;
+using QuizProject.Models;
 using QuizProject.Services.Interface;
 
 
@@ -8,7 +9,7 @@ public static class Extensions
 {
     private static Random rng = new Random();
 
-    public static void Shuffle<T>(this IList<T> list)
+    public static void Mix<T>(this IList<T> list)
     {
         int n = list.Count;
         while (n > 1)
@@ -50,7 +51,7 @@ public class QuizPlayerService : IQuizPlayerService
 
         var selectedQuiz = quizzesInCategory.First();
         var questions = selectedQuiz.Questions.ToList();
-        questions.Shuffle();
+        questions.Mix();
 
         int totalQuestions = questions.Count >= 20 ? 20 : questions.Count;
 
@@ -66,7 +67,7 @@ public class QuizPlayerService : IQuizPlayerService
             return 0;
         }
 
-        allQuestions.Shuffle();
+        allQuestions.Mix();
 
         int maxQuestions = allQuestions.Count >= totalQuestions ? totalQuestions : allQuestions.Count;
 
@@ -79,12 +80,15 @@ public class QuizPlayerService : IQuizPlayerService
 
         int correctAnswers = 0;
 
+        var wrongAnswers = new List<(string questions, List<string> userAnswers, List<string> correctAnswers)>();
+
+
         for (int questionIndex = 0; questionIndex < totalQuestions; questionIndex++)
         {
             var q = questions[questionIndex];
 
             var variants = q.Variantlar.ToList();
-            variants.Shuffle();
+            variants.Mix();
 
             Console.WriteLine($"\nSual {questionIndex + 1}: {q.Sual}");
 
@@ -111,25 +115,33 @@ public class QuizPlayerService : IQuizPlayerService
 
             if (isCorrect)
             {
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("✔️  Düzgün cavab!");
                 correctAnswers++;
             }
             else
             {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("❌  Səhv cavab.");
-                Console.Write("Düzgün cavab(lar): ");
-                Console.WriteLine(string.Join(", ", correctAnswerIndexes.Select(i => variants[i])));
+                var userAnswers = selectedIndexes.Select(i => variants[i]).ToList();
+                var corrects = correctAnswerIndexes.Select(i => variants[i]).ToList();
+                wrongAnswers.Add((q.Sual, userAnswers, corrects));
             }
-
-            Console.ResetColor();
         }
 
-        Console.WriteLine($"\n✅ Nəticə: {correctAnswers} / {totalQuestions} düzgün cavab.");
+        Console.WriteLine("\n--- 📊 Nəticə ---");
+        Console.WriteLine($"✅ Düzgün: {correctAnswers} / {totalQuestions}");
+        Console.WriteLine($"❌ Səhv: {totalQuestions - correctAnswers} / {totalQuestions}");
+
+        if (wrongAnswers.Any())
+        {
+            Console.WriteLine("\nSəhv cavab verdiyin suallar:");
+            int num = 1;
+            foreach (var item in wrongAnswers)
+            {
+                Console.WriteLine($"\n{num++}) {item.questions}");
+                Console.WriteLine($"   Sənin cavabın: {string.Join(", ", item.userAnswers)}");
+                Console.WriteLine($"   Düzgün cavab:  {string.Join(", ", item.correctAnswers)}");
+            }
+            Console.ReadKey();
+            Console.Clear();
+        }
         return correctAnswers;
     }
-
-
-
 }
