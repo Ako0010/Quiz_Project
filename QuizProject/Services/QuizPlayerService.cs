@@ -139,6 +139,7 @@ public class QuizPlayerService : IQuizPlayerService
                 Console.WriteLine($"   Sənin cavabın: {string.Join(", ", item.userAnswers)}");
                 Console.WriteLine($"   Düzgün cavab:  {string.Join(", ", item.correctAnswers)}");
             }
+            Console.WriteLine("Çıxmaq istəyirsinizsə, hər hansı bir düyməyə basın..");
             Console.ReadKey();
             Console.Clear();
         }
